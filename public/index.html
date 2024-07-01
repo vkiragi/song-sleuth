@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SongSleuth</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>SongSleuth</h1>
+    <input type="file" id="audioFile" accept="audio/*" />
+    <button id="analyzeButton">Analyze Audio</button>
+    <div id="results">
+      <p>Tempo: <span id="tempo"></span> BPM</p>
+      <p>Rounded BPM: <span id="bpm"></span></p>
+      <p>First Beat Offset: <span id="offset"></span> seconds</p>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
